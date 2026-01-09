@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Paneer Tikka",
+    "price": 250.0,
+    "category": "Starter",
+    "imageUrl": "/paneer-tikka.jpg",
+    "description": "Cottage cheese marinated and grilled in a tandoor."
+  },
+
+  {
+    "name": "Samosa (2 Pcs)",
+    "price": 100.0,
+    "category": "Starter",
+    "imageUrl": "/samosa.jpg",
+    "description": "Fried pastry with savory potato filling."
+  },
+  {
+    "name": "Aloo Tikki Chaat",
+    "price": 120.0,
+    "category": "Starter",
+    "imageUrl": "/Aloo-Tikki-Chaat.jpg",
+    "description": "Potato patties served with yogurt and chutneys."
+  },
+
+  {
+    "name": "Chilli Paneer (Dry)",
+    "price": 280.0,
+    "category": "Starter",
+    "imageUrl": "/chilli-paneer.jpg",
+    "description": "Indo-Chinese dry fried paneer with bell peppers."
+  },
+
+  {
+    "name": "Palak Paneer",
+    "price": 320.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/palak-paneer.webp",
+    "description": "Cottage cheese cubes in a creamy spinach gravy."
+  },
+  {
+    "name": "Dal Makhani",
+    "price": 180.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/dal-makhani.webp",
+    "description": "Black lentils cooked overnight with butter and cream."
+  },
+  {
+    "name": "Rajma Masala",
+    "price": 240.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/rajma-masala.webp",
+    "description": "Red kidney beans curry."
+  },
+  {
+    "name": "Malai Kofta",
+    "price": 350.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/malai-kofta.webp",
+    "description": "Paneer and vegetable dumplings in a creamy sauce."
+  },
+  {
+    "name": "Shahi Paneer",
+    "price": 340.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/shahi-paneer.webp",
+    "description": "Royal creamy gravy with cashews and paneer."
+  },
+  {
+    "name": "Mix Vegetable Curry",
+    "price": 280.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/mix-veg-curry.webp",
+    "description": "Seasonal vegetables in a thick gravy."
+  },
+  {
+    "name": "Aloo Gobi",
+    "price": 260.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/aloo-gobi.webp",
+    "description": "Potatoes and cauliflower sautéed with spices."
+  },
+  {
+    "name": "Bhindi Masala",
+    "price": 270.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/bhindi-masala.webp",
+    "description": "Okra cooked with onion and tomato masala."
+  },
+  {
+    "name": "Chana Masala",
+    "price": 230.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/chana-masala.webp",
+    "description": "Spicy chickpea curry."
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "price": 330.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/paneer-butter-masala.webp",
+    "description": "Rich tomato and butter-based curry with paneer."
+  },
+  {
+    "name": "Kadhai Paneer",
+    "price": 310.0,
+    "category": "Veg Main Course",
+    "imageUrl": "/kadhai-paneer.webp",
+    "description": "Paneer cooked with bell peppers and onions in a spiced tomato gravy."
+  },
+  {
+    "name": "Butter Chicken",
+    "price": 400.0,
+    "category": "Non-Veg",
+    "imageUrl": "/butter-chicken.webp",
+    "description": "Creamy tomato gravy with tender chicken."
+  },
+  {
+    "name": "Chicken Curry (Home Style)",
+    "price": 380.0,
+    "category": "Non-Veg",
+    "imageUrl": "/chicken-curry.webp",
+    "description": "Traditional chicken curry."
+  },
+  {
+    "name": "Mutton Rogan Josh",
+    "price": 500.0,
+    "category": "Non-Veg",
+    "imageUrl": "/mutton-rogan-josh.webp",
+    "description": "Aromatic Kashmiri lamb curry."
+  },
+  {
+    "name": "Fish Curry (Bengali Style)",
+    "price": 450.0,
+    "category": "Non-Veg",
+    "imageUrl": "/fish-curry.webp",
+    "description": "Fish cooked in mustard oil and spices."
+  },
+  {
+    "name": "Egg Curry",
+    "price": 290.0,
+    "category": "Non-Veg",
+    "imageUrl": "/egg-curry.webp",
+    "description": "Boiled eggs cooked in rich gravy."
+  },
+  {
+    "name": "Chicken Kadhai",
+    "price": 410.0,
+    "category": "Non-Veg",
+    "imageUrl": "/chicken-kadhai.webp",
+    "description": "Chicken cooked with bell peppers and onions."
+  },
+  {
+    "name": "Mutton Korma",
+    "price": 520.0,
+    "category": "Non-Veg",
+    "imageUrl": "/mutton-korma.webp",
+    "description": "Rich, creamy mutton preparation."
+  },
+  {
+    "name": "Tandoori Roti",
+    "price": 25.0,
+    "category": "Bread",
+    "imageUrl": "/tandoori-roti.webp",
+    "description": "Whole wheat bread cooked in a tandoor."
+  },
+  {
+    "name": "Butter Roti",
+    "price": 30.0,
+    "category": "Bread",
+    "imageUrl": "/butter-roti.webp",
+    "description": "Tandoori roti slathered with butter."
+  },
+  {
+    "name": "Plain Naan",
+    "price": 40.0,
+    "category": "Bread",
+    "imageUrl": "/plain-naan.webp",
+    "description": "Leavened flatbread."
+  },
+  {
+    "name": "Butter Naan",
+    "price": 45.0,
+    "category": "Bread",
+    "imageUrl": "/butter-naan.webp",
+    "description": "Naan slathered with butter."
+  },
+  {
+    "name": "Garlic Naan",
+    "price": 60.0,
+    "category": "Bread",
+    "imageUrl": "/garlic-naan.webp",
+    "description": "Naan topped with minced garlic."
+  },
+  {
+    "name": "Lachha Paratha",
+    "price": 70.0,
+    "category": "Bread",
+    "imageUrl": "/lachha-paratha.webp",
+    "description": "Layered whole wheat bread."
+  },
+  {
+    "name": "Aloo Paratha",
+    "price": 80.0,
+    "category": "Bread",
+    "imageUrl": "/aloo-paratha.webp",
+    "description": "Whole wheat bread stuffed with spiced potato mash."
+  },
+  {
+    "name": "Pudina Paratha",
+    "price": 75.0,
+    "category": "Bread",
+    "imageUrl": "/pudina-paratha.webp",
+    "description": "Layered bread with dried mint."
+  },
+  {
+    "name": "Plain Rice",
+    "price": 100.0,
+    "category": "Rice",
+    "imageUrl": "/plain-rice.webp",
+    "description": "Steamed Basmati rice."
+  },
+  {
+    "name": "Jeera Rice",
+    "price": 140.0,
+    "category": "Rice",
+    "imageUrl": "/jeera-rice.webp",
+    "description": "Rice tempered with cumin seeds."
+  },
+  {
+    "name": "Vegetable Pulao",
+    "price": 180.0,
+    "category": "Rice",
+    "imageUrl": "/veg-pulao.webp",
+    "description": "Rice cooked with mixed vegetables and spices."
+  },
+  {
+    "name": "Gulab Jamun (2 Pcs)",
+    "price": 100.0,
+    "category": "Dessert",
+    "imageUrl": "/gulab-jamun.webp",
+    "description": "Deep fried milk solids soaked in sugar syrup."
+  },
+  {
+    "name": "Kulfi",
+    "price": 150.0,
+    "category": "Dessert",
+    "imageUrl": "/kulfi.webp",
+    "description": "Traditional Indian frozen dessert."
+  },
+  {
+    "name": "Chocolate Lava Cake",
+    "price": 250.0,
+    "category": "Dessert",
+    "imageUrl": "/lava-cake.webp",
+    "description": "Warm chocolate cake with a molten center."
+  },
+  {
+    "name": "Rasgulla (2 Pcs)",
+    "price": 90.0,
+    "category": "Dessert",
+    "imageUrl": "/rasgulla.webp",
+    "description": "Soft cottage cheese balls in light sugar syrup."
+  },
+  {
+    "name": "Gajar Ka Halwa",
+    "price": 160.0,
+    "category": "Dessert",
+    "imageUrl": "/gajar-halwa.webp",
+    "description": "Carrot dessert cooked in milk and ghee."
+  },
+  {
+    "name": "Jalebi with Rabri",
+    "price": 180.0,
+    "category": "Dessert",
+    "imageUrl": "/jalebi-rabri.webp",
+    "description": "Crispy fried sweet served with thickened milk."
+  },
+  {
+    "name": "Masala Chai",
+    "price": 50.0,
+    "category": "Beverage",
+    "imageUrl": "/masala-chai.webp",
+    "description": "Traditional Indian spiced tea."
+  },
+  {
+    "name": "Lemon Soda",
+    "price": 80.0,
+    "category": "Beverage",
+    "imageUrl": "/lemon-soda.webp",
+    "description": "Refreshing fizzy drink with lemon and spices."
+  },
+  {
+    "name": "Cold Coffee",
+    "price": 150.0,
+    "category": "Beverage",
+    "imageUrl": "/cold-coffee.webp",
+    "description": "Classic chilled coffee."
+  },
+  {
+    "name": "Tomato Soup",
+    "price": 120.0,
+    "category": "Soup",
+    "imageUrl": "/tomato-soup.webp",
+    "description": "Classic tangy tomato soup, served hot."
+  }
+]
