@@ -10,7 +10,7 @@ export const fetchMenu = () => async (dispatch) => {
         
         dispatch({ type: FETCH_MENU_REQUEST });
 
-        const { data } = await axios.get('https://restaurent-pos-system.onrender.com');
+        const { data } = await axios.get('https://restaurent-pos-system.onrender.com/menu');
 
         
         const payload = data.menuItems ? data.menuItems : data;
