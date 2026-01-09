@@ -13,7 +13,7 @@ const Login = () => {
             localStorage.setItem("isAdmin", "true"); // Session lock
             navigate("/admin/menu"); // Redirect to manage page
         } else {
-            alert("Galat password ya username!");
+            alert("Wrong password or username!");
         }
     };
 
