@@ -11,7 +11,7 @@ const app = express();
 // --- Professional CORS Logic ---
 const corsOptions = {
   origin: [
-    "http://localhost:5173", // Local development (Vite)
+    "https://restaurent-pos-system-frontend.onrender.com", // Local development (Vite)
     "https://your-frontend-name.onrender.com" // Aapka Render frontend URL (deployment ke baad yahan daal dena)
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
@@ -32,8 +32,8 @@ const connectDB = async () => {
   }
 };
 
-app.use("/api/v1/menu", menuRoutes);
-app.use("/api/v1/order", orderRoutes);
+app.use("/menu", menuRoutes);
+app.use("/order", orderRoutes);
 
 const PORT = process.env.PORT || 5000;
 
