@@ -23,7 +23,7 @@ const PaymentScreen = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/v1/order/update-status/${orderId}`,
+        `https://restaurent-pos-system.onrender.com/order/update-status/${orderId}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
