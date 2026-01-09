@@ -40,7 +40,7 @@ const OrderCart = () => {
         paymentDetails: { method: "QR_PENDING" },
       };
 
-      const response = await fetch("http://localhost:5000/api/v1/order/place", {
+      const response = await fetch("https://restaurent-pos-system.onrender.com/order/place", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(orderData),
@@ -84,7 +84,7 @@ const OrderCart = () => {
         paymentDetails: { method: "KOT_OFFLINE" },
       };
 
-      const response = await fetch("http://localhost:5000/api/v1/order/place", {
+      const response = await fetch("https://restaurent-pos-system.onrender.com/order/place", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(orderData),
