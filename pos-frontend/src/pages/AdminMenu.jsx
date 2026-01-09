@@ -17,7 +17,7 @@ const AdminMenu = () => {
 
     const fetchMenu = async () => {
         try {
-            const res = await fetch('http://localhost:5000/api/v1/menu');
+            const res = await fetch('https://restaurent-pos-system.onrender.com');
             const data = await res.json();
             const finalData = data.menuItems ? data.menuItems : (Array.isArray(data) ? data : []);
             setMenuItems(finalData);
