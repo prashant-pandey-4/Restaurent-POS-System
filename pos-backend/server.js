@@ -12,7 +12,7 @@ const app = express();
 const corsOptions = {
   origin: [
     "https://restaurent-pos-system-frontend.onrender.com", // Local development (Vite)
-    "https://your-frontend-name.onrender.com" // Aapka Render frontend URL (deployment ke baad yahan daal dena)
+    "https://restaurent-pos-system-frontend.onrender.com" // Aapka Render frontend URL (deployment ke baad yahan daal dena)
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
