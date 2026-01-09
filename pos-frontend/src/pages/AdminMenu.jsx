@@ -38,8 +38,8 @@ const AdminMenu = () => {
         };
 
         const url = editingItem 
-            ? `http://localhost:5000/api/v1/menu/update/${editingItem._id}` 
-            : 'http://localhost:5000/api/v1/menu/add';
+            ? `https://restaurent-pos-system.onrender.com/menu/update/${editingItem._id}` 
+            : 'https://restaurent-pos-system.onrender.com/menu/add';
         
         const method = editingItem ? 'PUT' : 'POST';
 
@@ -67,7 +67,7 @@ const AdminMenu = () => {
     const handleDelete = async (id) => {
         if (window.confirm("Kya aap ise delete karna chahte hain?")) {
             try {
-                const res = await fetch(`http://localhost:5000/api/v1/menu/delete/${id}`, { method: 'DELETE' });
+                const res = await fetch(`https://restaurent-pos-system.onrender.com/menu/delete/${id}`, { method: 'DELETE' });
                 if (res.ok) {
                     alert("Deleted!");
                     fetchMenu();
